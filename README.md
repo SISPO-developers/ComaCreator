@@ -1,6 +1,5 @@
 # ComaCreator for Sispo
 
-
 Dust and gas environment generator for https://github.com/SISPO-developers/sispo. Standalone version has not been tested in a long time so it is mandatory to use Sispo. The plugin is activated by adding keywords (--with-plugin and plugins)
 
 ```
@@ -14,7 +13,6 @@ It is recommended to use the https://github.com/SISPO-developers/sispo_docker be
 
 **How it works**
 
-ComaCreator first generates a map of gas outflow strengths at the surface of the comet. Then the gas outflows are solved around the comet and this data is then used in the particle simulation that takes into account gravity, gas outflows, solar radiation and coriolis forces (if rotating frame). The gas and dust density data is then converted to EXR file that can be loaded by Blender and used for the volumetric scattering density.
 
 
 ##### Requirements
@@ -42,7 +40,7 @@ If the input file is set correctly, the Sispo will invoke JetCreator automatical
 
 ##### Parameters
 
-Inputs are controlled by "defaults.in" which can be created with "create_input.py". Input file in the $ROOT/data/defaults.in overrides the default values of the "$ROOT/src/PROGRAM/root.in". Sispo's input file must contain
+Inputs are controlled by "defaults.in". Input file in the $ROOT/data/defaults.in overrides the default values of the "$ROOT/src/PROGRAM/root.in". Sispo's input file must contain
 
 ```
    "options": ["--with-plugin"],
