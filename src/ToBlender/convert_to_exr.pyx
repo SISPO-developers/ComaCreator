@@ -15,8 +15,6 @@ import cv2
 
 from src.common import meshWrapper as mw
 from src.common import misc as misc
-from src.common import orbit as orbit
-
 
 #types for convenience
 t_double = np.float64  
