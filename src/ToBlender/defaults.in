@@ -1,0 +1,1 @@
+{"bbox_lcorner": [-5.0, -5.0, -5.0], "bbox_ucorner": [5.0, 5.0, 5.0], "resolution": 100, "dust_particle_field": "dmap2.in", "trajectory": "trajectory", "mesh_file": "comet.obj", "output_dmap": "output.exr", "aux_info": "aux.info"}

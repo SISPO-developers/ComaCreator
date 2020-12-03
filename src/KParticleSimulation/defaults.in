@@ -1,0 +1,25 @@
+{
+  "mu_orbit": 132712442099.00002,
+  "time_step": 0.1,
+  "mesh_scale": 1.0,
+  "n_particles": 100000,
+  "omega": [
+    0.0,
+    0.0,
+    0.00014189668715401053
+  ],
+  "m_comet": 100000000000000.0,
+  "C_d": 2.0,
+  "R_mu": 3e-07,
+  "R_sigma": 6e-08,
+  "rho_dust": 440000000000.0,
+  "molar_mass": 0.01801528,
+  "border": [
+    20.0,
+    20.0,
+    20.0
+  ],
+  "output_to": "test.out",
+  "mesh_fname": "comet.obj",
+  "dmap_fname": "dmap"
+}

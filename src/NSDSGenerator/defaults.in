@@ -1,0 +1,12 @@
+{
+  "gas_emission_base": 215.87,
+  "gas_emission_scale": 1162.4,
+  "pnoise_scale": 0.0025,
+  "pnoise_offset": 0.0,
+  "octaves": 10,
+  "persistence": 10.9,
+  "T_gas": 210.0,
+  "m_gas": 0.01801528,
+  "mesh_file": "/media/rokka/main2020/WRK/JetCreator/data/comet.obj",
+  "write_output_to": "/media/rokka/main2020/WRK/JetCreator/data/test.dat"
+}
